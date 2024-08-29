@@ -11,7 +11,7 @@ os.makedirs(args.output_dir, exist_ok=True)
 
 
 train = open(args.input_dir+"/train2id.txt", "r")
-valid = open(args.input_dir+"/val2id.txt", "r")
+valid = open(args.input_dir+"/valid2id.txt", "r")
 if args.test_path:
     test_path = args.test_path
 else:
